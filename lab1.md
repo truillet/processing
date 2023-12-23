@@ -13,14 +13,15 @@ Processing dans sa version originale s’appuie sur le langage Java, ce qui lui 
 Malgré encore quelques petites lacunes (de plus en plus corrigées), Processing.org a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
 
 ## Installer Processing
-**Nota** : Nous supposerons dans la suite du document que l’IDE (Integrated Development Environment) Processing 4.1.2 est installé dans le répertoire C:/langages
+**Nota1** : Nous supposerons dans la suite du document que l’IDE (Integrated Development Environment) Processing 4.1.2 est installé dans le répertoire C:/langages
 
 Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.1.2 du 16 janvier 2023 en 64 bits).
-
-Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable « processing ».
+Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable *processing*.
 Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
-(cf. File | Preferences), choisissez l’emplacement dans le champ « sketchbook location » et appuyez sur ok (cf. Figure 2).
+(cf. *File | Preferences*), choisissez l’emplacement dans le champ *sketchbook location* et appuyez sur ok (cf. Figure 2).
 
-Nota : Cette étape est primordiale pour la suite ; c’est dans ce répertoire que toutes librairies externes seront téléchargées et vos « sketchs » sauvés.
+**Nota2** : Cette étape est primordiale pour la suite ; c’est dans ce répertoire que toutes librairies externes seront téléchargées et vos *sketchs* sauvés.
 
-**Nota2** : Un tutoriel pour intégrer Processing.org dans IntellijIDEA est proposé ici :	 https://github.com/ctruillet/ProcessingOnIntellijIDEA
+**Nota3** : Un tutoriel pour intégrer Processing.org dans IntellijIDEA est proposé ici :	 https://github.com/ctruillet/ProcessingOnIntellijIDEA
+
+## Mon Premier sketch
