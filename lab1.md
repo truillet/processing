@@ -1,6 +1,6 @@
 # Lab1 - Initiation à Processing.org
 ## Introduction
-[Processing](https://processing.org) est un langage (en réalité, une surcouche du langage Java) développé par Ben Fry et Casey Reas (MIT) et dédié à la programmation créative.	
+[Processing.org](https://processing.org) est un langage (en réalité, une surcouche du langage Java) développé par Ben Fry et Casey Reas (MIT) et dédié à la programmation créative.	
 
 Il permet entre autres de manipuler des images (fixes ou animées) et interagir avec elles. Processing permet aussi de générer des textes, des formes vectorielles, des images en trois dimensions (en utilisant OpenGL), du son et plus généralement … tout ce que vous souhaitez !
 
@@ -25,3 +25,18 @@ Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 **Nota3** : Un tutoriel pour intégrer Processing.org dans IntellijIDEA est proposé ici :	 https://github.com/ctruillet/ProcessingOnIntellijIDEA
 
 ## Mon Premier sketch
+Il est possible d’utiliser Processing.org de différentes manières dont notamment en mode « script » (suites d’actions exécutées qu’une seule fois), et en mode *continu* (avec une boucle infinie – fonction **draw**).
+
+Le mode *continu* demande d’implémenter au moins deux fonctions : **setup()** qui initialise les variables (depuis [Processing.org](https://processing.org), on peut en plus utiliser la fonction **settings()**) et **draw()**, boucle d’affichage de données (*mainLoop*).
+Cette boucle permet d’afficher des animations graphiques complexes, réagir à des événements asynchrones provenant d’actions de l’utilisateur ou d’événements systèmes.
+
+Par convention, les mots réservés du langage sont affichés en bleu, vert et orange dans l’IDE (cf. Figure 3). 
+
+Pour ce premier sketch, recopiez le code ci-après (vous trouverez le fichier source ici -->	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/primitives_graphiques.zip) et	 lancez le script.
+
+Les possibilités du langage [Processing.org](https://processing.org) sont quasi-infinies notamment avec la possibilité d’utiliser la programmation orientée-objet, d’ajouter des librairies externes et d’en écrire soi-même ! 
+Enfin, l’IDE Processing propose plusieurs modes : Java (par défaut) mais aussi Android (ADB doit être installé), p5.js, Python, R et REPL (Read Eval Print Loop soit sous forme de *shell*).
+
+Il suffit de choisir le mode (une installation peut être requise) que vous souhaitez sur le bouton à droite de l’IDE.
+Les premiers exercices ci-après vous donnerons un aperçu de ce qui peut être fait en quelques lignes de code.
+
