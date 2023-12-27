@@ -35,7 +35,7 @@ Modifier le code de telle manière à télécharger le flux RSS (**R**eally **S*
 ### webcam
 Installer au préalable la librairie **Video** disponible dans le menu *Outils | Ajouter un outil…* puis onglet *Libraries*.
 
-Télécharger le projet *webcam*	(https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/webcam.zip) 
+Télécharger le projet *[webcam](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/webcam.zip)* 
 Modifier le projet de telle manière qu’en appuyant sur la barre espace, on puisse modifier les effets à appliquer sur le flux vidéo (on souhaite notamment avoir comme effet : mode niveaux de gris et inverse vidéo)
 
 ### "I'm your father"
