@@ -3,7 +3,7 @@
 ### manipuler des formes
 *	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
 <img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" width=200>
-  
+
 *	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)** (père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**	
 
 ### manipuler des images
