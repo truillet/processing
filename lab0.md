@@ -1,4 +1,4 @@
-# Lab1 - Initiation à Processing.org
+# Lab0 - Introduction à Processing.org
 ## Introduction
 [Processing.org](https://processing.org) est un langage (en réalité, une surcouche du langage Java) développé par Ben Fry et Casey Reas (MIT) et dédié à la programmation créative.	
 
