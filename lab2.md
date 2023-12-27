@@ -87,11 +87,11 @@ En cliquant sur la première fenêtre (sketch « sender »), un message sera aff
 Une fois compris le principe, écrire une interface composée de plusieurs sketchs (qui peuvent communiquer sur le réseau local) qui décode un QR-code présenté devant une caméra, affiche l’information décodée dans une autre fenêtre (d’une autre machine par exemple) et lit via une synthèse vocale le texte décodé (on pourra utiliser la librairie ttslib - https://www.local-guru.net/blog/pages/ttslib - par exemple).
 
 ## pour finir de manière un peu HARD(ware)
-Utiliser au préalable l’IDE Arduino (https://www.arduino.cc) sur votre machine.
+Utiliser au préalable l’[IDE Arduino](https://www.arduino.cc) sur votre machine.
 
 Télécharger l’exemple ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/processing_arduino.zip
 
-Compiler et téléverser le code capteur.ino sur le module arduino branché sur le port série. Brancher une led infrarouge sur le pin Analogique A0 et GND. (le code va lire la valeur du capteur et l’écrire sur le port série)
+Compiler et téléverser le code capteur.ino sur le module arduino branché sur le port série. Brancher une led infrarouge sur le pin Analogique **A0** et **GND**. (le code va lire la valeur du capteur et l’écrire sur le port série)
 
 Exécuter le code Processing.org. 	
 Modifier le code de telle manière que la valeur du capteur récupérée soit affichée sous forme de barre verticale entre 0 (si la valeur récupérée est "0") et 300 pixels maximum (si la valeur récupérée est "1024")
