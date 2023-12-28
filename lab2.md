@@ -6,20 +6,20 @@ Dans ce deuxième volet, nous allons nous intéresser à un certain nombre de co
 Télécharger le projet *[interface](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Gestion_Objets.zip)* et modifier le code de telle manière que l’objet change de couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MouseDragged()*, *MousePressed()* et *MouseReleased()*).
 
 ### une machine *dans tous ses états*
-Une manière efficace de concevoir des programmes interactifs est d’utiliser une machine à états. Le programme passe d’états en états grâce à des transitions qui sont la plupart du temps des événements provenant soit de l’utilisateur (actions de la souris, sur le clavier, …), soit du système lui-même.
+Une manière efficace de concevoir des programmes interactifs est d’utiliser une machine à états. Le programme passe d’états en états grâce à des transitions qui sont la plupart du temps des événements provenant soit de l’utilisateur (actions de la souris, sur le clavier, ...), soit du système lui-même.
 
 La fonction **draw()** va finalement ressembler à la structure suivante, proposant différentes visualisations suivant l’état courant :
 ```
 FSM mae // Machine A Etats
-**...**
+...
 void draw() {
 	switch(mae) {
 		case INITIAL :
-			**...**
+			...
 			break;
-		**...**
+		...
 		default:
-			**...**	
+			...	
 			break;
 	}
 }
@@ -82,7 +82,7 @@ Télécharger l’exemple ici : https://github.com/truillet/upssitech/blob/maste
 
 Dézipper les deux sketchs et lancer-les tous les deux. Ces deux sketchs utilisent le middleware ivy pour communiquer sur le réseau local (voir https://github.com/truillet/ivy pour une information générale).
 
-En cliquant sur la première fenêtre (sketch « sender »), un message sera affiché sur l’autre fenêtre (« receiver ») et un feedback est envoyé à la première.
+En cliquant sur la première fenêtre (sketch *sender*), un message sera affiché sur l’autre fenêtre (*receiver*) et un feedback est envoyé à la première.
 
 Une fois compris le principe, écrire une interface composée de plusieurs sketchs (qui peuvent communiquer sur le réseau local) qui décode un QR-code présenté devant une caméra, affiche l’information décodée dans une autre fenêtre (d’une autre machine par exemple) et lit via une synthèse vocale le texte décodé (on pourra utiliser la librairie ttslib - https://www.local-guru.net/blog/pages/ttslib - par exemple).
 
@@ -94,5 +94,5 @@ Télécharger l’exemple ici : https://github.com/truillet/upssitech/blob/maste
 Compiler et téléverser le code capteur.ino sur le module arduino branché sur le port série. Brancher une led infrarouge sur le pin Analogique **A0** et **GND**. (le code va lire la valeur du capteur et l’écrire sur le port série)
 
 Exécuter le code Processing.org. 	
-Modifier le code de telle manière que la valeur du capteur récupérée soit affichée sous forme de barre verticale entre 0 (si la valeur récupérée est "0") et 300 pixels maximum (si la valeur récupérée est "1024")
+Modifier le code de telle manière que la valeur du capteur récupérée soit affichée sous forme de barre verticale entre 0 (si la valeur récupérée est *0*) et 300 pixels maximum (si la valeur récupérée est *1024*)
 
