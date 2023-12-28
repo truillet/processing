@@ -1,4 +1,4 @@
-# Lab2 - Processing.org avancé
+# Lab2 - <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> Processing.org avancé
 Dans ce deuxième volet, nous allons nous intéresser à un certain nombre de concepts et de librairies pour aller plus avant dans la programmation et les modalités d’interaction non-conventionnelles.
 
 ## de l'interaction avec "classe"
