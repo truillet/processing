@@ -38,15 +38,15 @@ A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JS
 A partir de l’exemple téléchargé ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode.zip
 Créer une application qui affiche un objet 3D sur le QR code détecté.
 
-**Nota1** : cette application utilise la librairie ZXing (https://github.com/zxing/zxing)
+**Nota1** : cette application utilise la librairie [ZXing](https://github.com/zxing/zxing)
 
-**Nota2** : Pour générer un QR Code depuis Processing, voir le code ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode_Generator.zip
+**Nota2** : Pour générer un QR Code depuis Processing.org, voir le code ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode_Generator.zip
 
 ### à base de TopCodes
 A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode
 Créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
 
-**Nota** : cette application utilise la librairie TopCodes-Tangible Objet Placement Codes réécrite pour Processing (voir http://users.eecs.northwestern.edu/~mhorn/topcodes pour la version originale)
+**Nota** : cette application utilise la librairie [TopCodes-**T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes pour la version originale) réécrite pour Processing.org
 
 ### BoofCV
 Installer au préalable la librairie BoofCV for Processing disponible dans le menu Outils | Ajouter un outil… puis onglet Libraries. BoofCV (https://boofcv.org) est un ensemble de fonctions de manipulation d’images.
