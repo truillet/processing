@@ -1,4 +1,4 @@
-# Lab1 - Initiation à Processing
+# Lab1 - Initiation à <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> Processing.org
 ## Formes et images
 ### manipuler des formes
 *	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
