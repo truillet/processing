@@ -1,4 +1,4 @@
-# Lab0 - Introduction à Processing.org
+# Lab0 - Introduction à <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> Processing.org
 ## Introduction
 [Processing.org](https://processing.org) est un langage (en réalité, une surcouche du langage Java) développé par Ben Fry et Casey Reas (MIT) et dédié à la programmation créative.	
 
