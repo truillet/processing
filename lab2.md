@@ -46,32 +46,28 @@ Créer une application qui affiche un objet 3D sur le QR code détecté.
 **Nota2** : Pour générer un QR Code depuis Processing.org, voir le code ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode_Generator.zip
 
 ### A base de TopCodes
-A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode
-Créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
+A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode, créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
 
 **Nota** : cette application utilise la librairie [TopCodes-**T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes pour la version originale) réécrite pour Processing.org
 
 ### BoofCV
-Installer au préalable la librairie BoofCV for Processing disponible dans le menu Outils | Ajouter un outil… puis onglet Libraries. BoofCV (https://boofcv.org) est un ensemble de fonctions de manipulation d’images.
-
-Aller dans *Fichier | Exemples…* Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire *Contributed Librarie*s | BoofCVforProcessing ouvrez le sketch Fiducials. L’ouvrir et l’exécuter. 
+* Installer au préalable la librairie **BoofCV for Processing** disponible dans le menu *Outils | Ajouter un outil...* puis onglet *Libraries*. **[BoofCV](https://boofcv.org)** est un ensemble de fonctions de manipulation d’images.
+* Aller dans *Fichier | Exemples…* Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire *Contributed Libraries | BoofCVforProcessing* ouvrez le sketch Fiducials. L’ouvrir et l’exécuter. 
 Modifier le code de telle manière que quand le pattern fiduciaire est détecté devant la caméra, un texte codé apparait à l’écran sur le pattern.
 
-Fiducial à télécharger : https://github.com/truillet/upssitech/blob/master/SRI/1A/TP/fiducial_BoofCV.pdf (voir la documentation ici : http://boofcv.org/index.php?title=Tutorial_Fiducials)
+**Fiducial à télécharger** : https://github.com/truillet/upssitech/blob/master/SRI/1A/TP/fiducial_BoofCV.pdf (voir la documentation ici : http://boofcv.org/index.php?title=Tutorial_Fiducials)
 
 **Nota** : Vous pouvez aussi essayer les autres exemples (TrackingObject ou RemovePerspective par exemple 😉) intéressants pour d’autres sujets à traiter (comme le suivi d’objet en temps-réel ou le changement de perspective d’un objet).
 
 
 ### NyARToolkit
-NyARToolkit (https://nyatla.jp/nyartoolkit) est une version modifiée de la célèbre librairie ARToolkit développée par l’université de Washington il y a une vingtaine d’année	 (http://www.hitl.washington.edu/artoolkit).
-
-Télécharger la librairie NyARToolkit pour Processing.org ici : https://github.com/nyatla/NyARToolkit-for-Processing
-Dézipper le fichier nyar4psg.zip et place le répertoire (nyar4pasg) dans le répertoire libraries emplacement de sketchbook (ex : C:\dev\processing). Relancer Processing.org pour que le changement soit pris en compte.
-
-Aller dans Fichier | Exemples… Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire Contributed Libraries|nyar4psg et ouvrez le sketch multimarker. 
+* **NyARToolkit** (https://nyatla.jp/nyartoolkit) est une version modifiée de la célèbre librairie ARToolkit développée par l’université de Washington il y a une vingtaine d’années (http://www.hitl.washington.edu/artoolkit).
+* Télécharger la librairie **NyARToolkit** pour Processing.org ici : https://github.com/nyatla/NyARToolkit-for-Processing
+Dézipper le fichier nyar4psg.zip et place le répertoire (*nyar4pasg*) dans le répertoire libraries emplacement de sketchbook (ex : ```C:\dev\processing```). Relancer Processing.org pour que le changement soit pris en compte.
+* Aller dans *Fichier | Exemples...* Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire *Contributed Libraries|nyar4psg* et ouvrez le sketch multimarker. 
 A partir de l’exemple, développer une application qui permet de sélectionner une zone filmée par la webcam et prend une photo (sauvée en jpeg) quand on appuie sur la barre espace.
 
-**Nota1** : si vous voulez ne pas utiliser de pattern ARToolkit, vous pouvez créer le vôtre à partir d’une image grâce à l’exemple Fichier | Exemples… Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire Contributed Libraries|nyar4psg et ouvrez le sketch nftFilesGen (Natural Feature Tracker). Ouvrir ensuite dans le même répertoire le fichier simpleNft en le modifiant avec le motif que vous venez de créer (modifier la ligne 22)
+**Nota1** : si vous voulez ne pas utiliser de pattern **ARToolkit**, vous pouvez créer le vôtre à partir d’une image grâce à l’exemple *Fichier | Exemples...* Dans la fenêtre ouverte (Java Examples), aller dans le sous-répertoire *Contributed Libraries|nyar4psg* et ouvrez le sketch *nftFilesGen* (Natural Feature Tracker). Ouvrir ensuite dans le même répertoire le fichier *simpleNft* en le modifiant avec le motif que vous venez de créer (modifiez la ligne 22)
 
 **Nota 2** : les patterns ARToolkit kanji et hiro sont téléchargeables ici :	 https://niebert.github.io/SamplesAR/markers/Hiro_Kanji_3Markers.pdf
 
