@@ -4,7 +4,7 @@
 *	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
 <p align="center">
 <img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" align="center" width=400>
-</p>p>
+</p>
 *	Composer un tableau simplifié de type [**Piet Mondrian**](https://www.wikiart.org/en/piet-mondrian) (père du néo-plasticisme) ou [**Sophie Taeuber-Arp**](https://www.wikiart.org/en/sophie-taeuber-arp)	
 
 **Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
