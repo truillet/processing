@@ -6,7 +6,7 @@
 <img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" align="center" width=400>
 </p>
 
-*	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)**(père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**
+*	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)** (père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**
 
 **Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
 
@@ -15,6 +15,7 @@
 *	Charger un fichier png avec un bit de transparence et créer une composition graphique en superposant les couches.
 *	Faire défiler de droite à gauche votre composition graphique.
 
+**Tips** : Manipuler les [images](https://processing.org/reference/#image) sous Processing.org
 
 ### utiliser la typographie
 *	Afficher votre citation favorite avec votre police de caractères préférée.
@@ -27,7 +28,7 @@
 *	Utiliser les flèches du clavier (droite, gauche, haut et bas) pour modifier la position d’un triangle affiché dans la fenêtre
 *	Dessiner un personnage qui réagit suivant les actions de la souris.
 
-**Tips** : 
+**Tips** : **[Clavier](https://processing.org/reference/key.html)**  et **[Souris](https://processing.org/reference/mousePressed_.html)** :
 
 ### manipuler des films vidéo
 Télécharger une vidéo sur Youtube au format mp4 (vous pouvez utiliser *vlc portable* ou par exemple le site https://mrs0m30n3.github.io/youtube-dl-gui pour la sauver)
@@ -57,8 +58,8 @@ Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgr
 ## adresses utiles
 *	**Processing** : http://www.processing.org
 *	**p5.js** : http://p5js.org
-*	**Référence** : http://processing.org/reference
+*	**Référence Processing.org** : http://processing.org/reference
 *	**Learning Processing** : http://www.learningprocessing.com
 *	**Hello Processing** : http://hello.processing.org
-*	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.2.pdf
+*	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.4.pdf
 *	**Librairies** : https://processing.org/reference/libraries/
