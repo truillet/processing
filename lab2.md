@@ -33,7 +33,7 @@ Sur **https://api.nasa.gov**, générez une nouvelle clé API
 
 A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JSONObject](https://processing.org/reference/JSONObject.html), écrivez un sketch Processing qui récupère et affiche la photo du jour dans une fenêtre (taille de la fenêtre adaptée à la taille de la photo) et affiche le titre de l’image du jour dans la barre supérieure de la fenêtre Processing.
 
-<img src="[https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png](https://github.com/truillet/processing/blob/master/data/img/NPoD.png)" width=200>
+<img src="https://github.com/truillet/processing/blob/master/data/img/NPoD.png" width=200>
 
 ## un peu de Réalité Augmentée
 ### à base de QRCode
