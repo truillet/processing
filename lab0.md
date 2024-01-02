@@ -10,10 +10,10 @@ Il existe actuellement de multiples versions de Processing dont [p5.js](https://
 
 Processing dans sa version originale s’appuie sur le langage Java, ce qui lui permet de fonctionner sur les systèmes d’exploitation Windows, MacOS X, Linux (et donc aussi sur Raspbian pour Raspberry Pi) et Android avec le mode idoine proposé à partir de Processing 3).	
 
-Malgré encore quelques petites lacunes (de plus en plus corrigées), Processing.org a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
+Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processing.org](https://processing.org) a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
 
 ## Installer Processing
-**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.1.2 est installé dans le répertoire ```C:/langages```
+**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.3 est installé dans le répertoire ```C:/langages```
 
 Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.3 du 26 juillet 2023 en 64 bits).
 Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable *processing*.
