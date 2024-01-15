@@ -59,7 +59,7 @@ Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgr
 *	**Processing** : https://www.processing.org
 *	**p5.js** : https://p5js.org
 *	**Référence Processing.org** : https://processing.org/reference
-*	**Learning Processing** : https://www.learningprocessing.com
+*	**Learning Processing** : http://www.learningprocessing.com
 *	**Hello Processing** : https://hello.processing.org
 *	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.4.pdf
 *	**Librairies** : https://processing.org/reference/libraries/
