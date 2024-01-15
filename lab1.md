@@ -56,10 +56,10 @@ Installer au préalable la librairie **[OpenCV](https://github.com/atduskgreg/op
 Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgreg/opencv-processing/releases)** et remplacer chaque figure détectée par une webcam par le masque de [Dark Vador](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/darth_vader.png)
 
 ## Adresses utiles
-*	**Processing** : http://www.processing.org
-*	**p5.js** : http://p5js.org
-*	**Référence Processing.org** : http://processing.org/reference
-*	**Learning Processing** : http://www.learningprocessing.com
-*	**Hello Processing** : http://hello.processing.org
+*	**Processing** : https://www.processing.org
+*	**p5.js** : https://p5js.org
+*	**Référence Processing.org** : https://processing.org/reference
+*	**Learning Processing** : https://www.learningprocessing.com
+*	**Hello Processing** : https://hello.processing.org
 *	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.4.pdf
 *	**Librairies** : https://processing.org/reference/libraries/
