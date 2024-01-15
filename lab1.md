@@ -28,7 +28,7 @@
 *	Utiliser les flèches du clavier (droite, gauche, haut et bas) pour modifier la position d’un triangle affiché dans la fenêtre
 *	Dessiner un personnage qui réagit suivant les actions de la souris.
 
-**Tips** : **[Clavier](https://processing.org/reference/key.html)**  et **[Souris](https://processing.org/reference/mousePressed_.html)** :
+**Tips** : **[Clavier](https://processing.org/reference/key.html)**  et **[Souris](https://processing.org/reference/mousePressed_.html)**
 
 ### Manipuler des films vidéo
 Télécharger une vidéo sur Youtube au format mp4 (vous pouvez utiliser *vlc portable* ou par exemple le site https://mrs0m30n3.github.io/youtube-dl-gui pour la sauver)
