@@ -15,8 +15,10 @@
 *	Charger un fichier png avec un bit de transparence et créer une composition graphique en superposant les couches.
 *	Faire défiler de droite à gauche votre composition graphique.
 
-**Tips** : Manipuler les [images](https://processing.org/reference/#image) sous Processing.org
-
+**Tips** : 
+* Manipuler les [images](https://processing.org/reference/#image) sous Processing.org
+* https://remove.bg : supprimer le fond d'une photo PNG
+   
 ### Utiliser la typographie
 *	Afficher votre citation favorite avec votre police de caractères préférée.
 *	Utiliser deux polices de caractères différentes pour simuler un dialogue fictif entre 2 utilisateurs (phrases justifiées à gauche pour l’un et à droite pour l’autre)
