@@ -2,9 +2,9 @@
 
 Je stocke ici des exemples et quelques fiches "non documentées" (ou peu) concernant l'usage du logiciel [Processing.org](https://www.processing.org)
 
-Quelques petits projets processing sont **[là](https://github.com/truillet/tas_de_code)** et une série de travaux pratiques **[ici](https://github.com/truillet/upssitech/wiki/Interaction_Homme_Machine_1A)**
+Quelques petits projets processing sont **[là](https://github.com/truillet/tas_de_code)** et une série de travaux pratiques à partir d'ici **([lab0.md))**
 
 Un petit tour dans le **[Wiki](https://github.com/truillet/processing/wiki)** pour en savoir plus !
 
 
-Philippe Truillet, juin 2018 - février 2023
+Philippe Truillet, juin 2018 - janvier 2024
