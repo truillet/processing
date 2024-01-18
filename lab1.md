@@ -65,3 +65,5 @@ Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgr
 *	**Hello Processing** : https://hello.processing.org
 *	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.4.pdf
 *	**Librairies** : https://processing.org/reference/libraries/
+
+--> **[Aller à la suite](lab2.md)** <--
