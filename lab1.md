@@ -10,6 +10,8 @@
 
 **Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
 
+**Solution** : [Paintings](./exemples/base/Paintings.zip)
+
 ### Manipuler des images
 *	Afficher deux images ayant une teinte différente.
 *	Charger un fichier png avec un bit de transparence et créer une composition graphique en superposant les couches.
