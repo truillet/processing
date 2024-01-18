@@ -40,3 +40,4 @@ Enfin, l’IDE Processing propose plusieurs modes : Java (par défaut) mais auss
 Il suffit de choisir le mode (une installation peut être requise) que vous souhaitez sur le bouton à droite de l’IDE.
 Les premiers exercices ci-après vous donnerons un aperçu de ce qui peut être fait en quelques lignes de code.
 
+--> [Aller à la suite](lab1.md) <--
