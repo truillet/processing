@@ -36,6 +36,10 @@ A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JS
 <img src="https://github.com/truillet/processing/blob/master/data/img/NPoD.png" width=400>
 </p>
 
+**Tips** : Gestion des objets [JSON en processing](https://processing.org/reference/JSONObject.html)
+
+**Nota** : Lire un JSON depuis une chaîne : *[parseJSONObject](https://processing.org/reference/parseJSONObject_.html)*
+
 ## Un peu de Réalité Augmentée
 ### A base de QRCode
 A partir de l’exemple téléchargé ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode.zip
@@ -46,9 +50,11 @@ Créer une application qui affiche un objet 3D sur le QR code détecté.
 **Nota2** : Pour générer un QR Code depuis Processing.org, voir le code ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode_Generator.zip
 
 ### A base de TopCodes
-A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode, créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
+A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode (télécharger le *repository entier*), créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
 
-**Nota** : cette application utilise la librairie [TopCodes-**T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes pour la version originale) réécrite pour Processing.org
+**Nota1** : cette application utilise la librairie [TopCodes-**T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes pour la version originale) réécrite pour Processing.org
+
+**Nota2** : les **codes TopCodes** sont à télécharger **[ici](http://users.eecs.northwestern.edu/~mhorn/topcodes/topcodes.pdf)**
 
 ### BoofCV
 * Installer au préalable la librairie **BoofCV for Processing** disponible dans le menu *Outils | Ajouter un outil...* puis onglet *Libraries*. **[BoofCV](https://boofcv.org)** est un ensemble de fonctions de manipulation d’images.
