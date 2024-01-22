@@ -38,7 +38,7 @@ A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JS
 
 **Tips** : Gestion des objets [JSON en processing](https://processing.org/reference/JSONObject.html)
 
-**Nota** : Lire un JSON depuis une chaîne : *[parseJSONObject](https://processing.org/reference/parseJSONObject_.html)*
+**Nota** : Lire un JSON depuis une chaîne : *[fonction parseJSONObject(chaine)](https://processing.org/reference/parseJSONObject_.html)*
 
 ## Un peu de Réalité Augmentée
 ### A base de QRCode
