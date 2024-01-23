@@ -2,8 +2,6 @@
 Dans ce deuxième volet, nous allons nous intéresser à un certain nombre de concepts et de librairies pour aller plus avant dans la programmation et les modalités d’interaction non-conventionnelles.
 
 ## De l'interaction avec "classe"
-### programmation orientée-objet
-Télécharger le projet *[Gestion_Objets](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Gestion_Objets.zip)* et modifier le code de telle manière que l’objet change de couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MouseDragged()*, *MousePressed()* et *MouseReleased()*).
 
 ### Une machine *dans tous ses états*
 Une manière efficace de concevoir des programmes interactifs est d’utiliser **une machine à états**. Le programme passe d’état en étas grâce à des transitions qui sont la plupart du temps des événements provenant soit de l’utilisateur (actions de la souris, sur le clavier, ...), soit du système lui-même (événement issu de la webcam, liaison série, ...).
@@ -26,6 +24,9 @@ void draw() {
 ```
 
 A partir de **[l’exemple fourni ici](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Machine_Etats.zip)**, écrire un programme qui démarre la webcam / arrête la webcam quand l’utilisateur tape sur la barre espace. (Par défaut, une image de renardeau -(tout *mignon*- sera affichée à la place du flux vidéo).
+
+### programmation orientée-objet
+Télécharger le projet *[Gestion_Objets](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Gestion_Objets.zip)* et modifier le code de telle manière que l’objet puisse se déplacer quand on clique dessus et le déplace à l'écran, change de aussi couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MouseDragged()*, *MousePressed()* et *MouseReleased()*).
 
 ## la mise en réseau des données
 ### les données JSON
