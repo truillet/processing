@@ -50,6 +50,9 @@ Créer une application qui affiche un objet 3D sur le QR code détecté.
 
 **Nota2** : Pour générer un QR Code depuis Processing.org, voir le code ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode_Generator.zip
 
+**Liens**
+* [décoder un QR-Code à la main](https://qr.blinry.org)
+  
 ### A base de TopCodes
 A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode (télécharger le *repository entier*), créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
 
