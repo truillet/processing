@@ -13,9 +13,9 @@ Processing dans sa version originale s’appuie sur le langage Java, ce qui lui 
 Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processing.org](https://processing.org) a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
 
 ## Installer Processing
-**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.3 est installé dans le répertoire ```C:/langages```
+**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.3.1 est installé dans le répertoire ```C:/langages```
 
-Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.3 du 26 juillet 2023 en 64 bits).
+Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.3.1 du 12 novembre 2024 en 64 bits).
 Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable *processing*.
 Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 (cf. *File | Preferences*), choisissez l’emplacement dans le champ *sketchbook location* et appuyez sur *ok*.
