@@ -40,7 +40,13 @@ A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JS
 **Tips** : Gestion des objets [JSON en processing](https://processing.org/reference/JSONObject.html)
 
 **Nota** : Lire un JSON depuis une chaîne : *[fonction parseJSONObject(chaine)](https://processing.org/reference/parseJSONObject_.html)*
-
+```java
+    JSONObject json;    
+    try {
+      String requete = "https://api.nasa.gov/planetary/apod?api_key="+appID;
+      json = loadJSONObject(requete);
+      ...
+```
 ## Un peu de Réalité Augmentée
 ### A base de QRCode
 A partir de l’exemple téléchargé ici : https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/QRCode.zip
