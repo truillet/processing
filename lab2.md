@@ -45,7 +45,9 @@ A l’aide de l’API APOD (**A**stronomy **P**icture **O**f the **D**ay) et [JS
     try {
       String requete = "https://api.nasa.gov/planetary/apod?api_key="+appID;
       json = loadJSONObject(requete);
+      String title=json.getString("title");
       ...
+    }
 ```
 ## Un peu de Réalité Augmentée
 ### A base de QRCode
