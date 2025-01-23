@@ -64,7 +64,7 @@ Créer une application qui affiche un objet 3D sur le QR code détecté.
 ### A base de TopCodes
 A partir de l’exemple téléchargé ici : https://github.com/truillet/TopCode (télécharger le *repository entier*), créer une application qui affiche des informations sur des objets physiques équipés de TopCodes repérés par une webcam quand l’utilisateur clique sur l’objet.
 
-**Nota1** : cette application utilise la librairie [TopCodes-**T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes) pour la version originale réécrite pour Processing.org
+**Nota1** : cette application utilise la librairie [TopCodes - **T**angible **O**bjet **P**lacement **Codes**](http://users.eecs.northwestern.edu/~mhorn/topcodes) pour la version originale réécrite pour Processing.org
 
 **Nota2** : les **codes TopCodes** sont à télécharger **[ici](http://users.eecs.northwestern.edu/~mhorn/topcodes/topcodes.pdf)**
 
