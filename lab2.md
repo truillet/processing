@@ -26,7 +26,7 @@ void draw() {
 A partir de **[l’exemple fourni ici](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Machine_Etats.zip)**, écrire un programme qui démarre la webcam / arrête la webcam quand l’utilisateur tape sur la barre espace. (Par défaut, une image de renardeau -(tout *mignon*- sera affichée à la place du flux vidéo).
 
 ### programmation orientée-objet
-Télécharger le projet *[Gestion_Objets](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Gestion_Objets.zip)* et modifier le code de telle manière que l’objet puisse se déplacer quand on clique dessus et le déplace à l'écran, change de aussi couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MouseDragged()*, *MousePressed()* et *MouseReleased()*).
+Télécharger le projet *[Gestion_Objets](https://github.com/truillet/processing/blob/master/exemples/avance/Gestion_Objets.zip)* et modifier le code de telle manière que chaque objet change de couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MousePressed()* et *MouseReleased()*).
 
 ## la mise en réseau des données
 ### les données JSON
