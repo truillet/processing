@@ -7,4 +7,4 @@ Quelques petits projets processing sont **[là](https://github.com/truillet/tas_
 Un petit tour dans le **[Wiki](https://github.com/truillet/processing/wiki)** pour en savoir plus !
 
 
-Philippe Truillet, juin 2018 - janvier 2024
+Philippe Truillet, juin 2018 - janvier 2025
