@@ -1,4 +1,4 @@
-# Lab0 - Introduction à <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> Processing.org
+# Lab0 - Introduction à <img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Processing_2021_logo.png" width=64> Processing.org
 ## Introduction
 [Processing.org](https://processing.org) est un langage (en réalité, une surcouche du langage Java) développé par Ben Fry et Casey Reas (MIT) et dédié à la programmation créative.	
 
@@ -13,7 +13,7 @@ Processing dans sa version originale s’appuie sur le langage Java, ce qui lui 
 Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processing.org](https://processing.org) a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
 
 ## Installer Processing
-**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.3.1 est installé dans le répertoire ```C:/langages```
+**Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.4.7 est installé dans le répertoire ```C:/langages```
 
 Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.3.1 du 12 novembre 2024 en 64 bits).
 Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable *processing*.
@@ -23,6 +23,8 @@ Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 **Nota2** : Cette étape est primordiale pour la suite ; c’est dans ce répertoire que toutes librairies externes seront téléchargées et vos *sketchs* sauvés.
 
 **Nota3** : Un tutoriel pour intégrer [Processing.org](https://processing.org) dans [IntellijIDEA](https://www.jetbrains.com/idea) est proposé ici :	 https://github.com/ctruillet/ProcessingOnIntellijIDEA
+
+**Nota4** : Une extenstion Procssing pour [VSCode](https://code.visualstudio.com/) existe : [extension VSCode](https://marketplace.visualstudio.com/items?itemName=processing-foundation.processing-vscode-extension)
 
 ## Mon Premier sketch
 Il est possible d’utiliser Processing.org de différentes manières dont notamment en mode « script » (suites d’actions exécutées qu’une seule fois), et en mode *continu* (avec une boucle infinie – fonction **draw**).
