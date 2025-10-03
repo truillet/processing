@@ -34,7 +34,44 @@ Cette boucle permet d’afficher des animations graphiques complexes, réagir à
 
 Par convention, les mots réservés du langage sont affichés en bleu, vert et orange dans l’IDE. 
 
-Pour ce premier sketch, recopiez le code ci-après (vous trouverez le fichier source ici -->	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/primitives_graphiques.zip) et	 lancez le script.
+Pour ce premier sketch, recopiez le code ci-après et lancez le script
+
+```java
+/** 
+  Utiliser des primitives graphiques dans un script Processing
+**/
+
+/* Variables "globales" du sketch [En réalité, attributs de la classe PApplet] */
+color GREEN = color(0,255,0);
+color BLUE = color(0,0,255);
+color SEMI_TRANSPARENT_RED = color(255,0,0,120);
+
+void settings() {
+  size(400,300); // créer une fenêtre de taille 400x300
+}
+
+void setup(){ // initialiser le sketch
+
+}
+  
+void draw(){ // boucle infinie de dessin
+  background(0); // redessiner la fenêtre en noir - 0-->noir / 255-->blanc  
+  noStroke(); // ne pas dessiner le contour des objets dessinés
+  
+  /** dessin des trois formes **/
+  // dessin du cercle
+  fill(GREEN);
+  circle(200,200,100);  
+  // dessin du carré bleu
+  fill(BLUE);
+  square(50,50,100);
+  //dessun du triangle
+  fill(SEMI_TRANSPARENT_RED);
+  triangle(40,20,250,150,80,250); 
+}
+  
+```
+(vous trouverez le fichier source --> [ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/primitives_graphiques.zip) <--	 ).
 
 Les possibilités du langage [Processing.org](https://processing.org) sont quasi-infinies notamment avec la possibilité d’utiliser la programmation orientée-objet, d’ajouter des librairies externes et d’en écrire soi-même ! 
 Enfin, l’IDE Processing propose plusieurs modes : Java (par défaut) mais aussi Android (ADB doit être installé), [p5.js](https://p5js.org), Python, R et REPL (**R**ead **E**val **P**rint **L**oop soit sous forme de *shell*).
