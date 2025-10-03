@@ -35,13 +35,13 @@
 **Tips** : **[Clavier](https://processing.org/reference/key.html)**  et **[Souris](https://processing.org/reference/mousePressed_.html)**
 
 ### Manipuler des films vidéo
-Télécharger une vidéo sur Youtube au format mp4 (vous pouvez utiliser *vlc portable* ou par exemple le site https://mrs0m30n3.github.io/youtube-dl-gui pour la sauver)
+Télécharger une vidéo sur Youtube au format mp4 (vous pouvez utiliser [Youtube DLP GUI](https://github.com/kannagi0303/yt-dlp-gui) pour la sauver)
 
-Charger le projet *[videos](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/videos.zip)* et modifier le code de telle manière que vous puissiez gérer le rembobinage, la pause et le démarrage de la vidéo avec les touches du clavier.
+Charger le projet *[videos](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/videos.zip)* et modifier le code de telle manière que vous puissiez gérer le rembobinage, la pause et le démarrage de la vidéo avec les touches du clavier.
 
 ## ... et de mise en réseau
 ### Un flux RSS
-Charger le *[projet RSS](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/rss.zip)*, l’installer et l’ouvrir.
+Charger le *[projet RSS](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/rss.zip)*, l’installer et l’ouvrir.
 Exécuter le code.	
 Modifier le code de telle manière à télécharger le flux RSS (**R**eally **S**imple **S**yndication) du journal "[le Monde](https://www.lemonde.fr/rss/une.xml)" et afficher les "Unes" dans des cercles quand l’utilisateur clique sur le titre du journal.
 
@@ -51,13 +51,13 @@ Modifier le code de telle manière à télécharger le flux RSS (**R**eally **S*
 ### Webcam
 Installer au préalable la librairie **Video** disponible dans le menu *Outils | Ajouter un outil…* puis onglet *Libraries*.
 
-Télécharger le projet *[webcam](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/webcam.zip)* 
+Télécharger le projet *[webcam](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/webcam.zip)* 
 Modifier le projet de telle manière qu’en appuyant sur la barre espace, on puisse modifier les effets à appliquer sur le flux vidéo (on souhaite notamment avoir comme effet : mode niveaux de gris et inverse vidéo)
 
 ### "I'm your father"
 Installer au préalable la librairie **[OpenCV](https://github.com/atduskgreg/opencv-processing/releases)** disponible dans le menu *Outils | Ajouter un outil…* puis onglet *Libraries*.
 
-Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgreg/opencv-processing/releases)** et remplacer chaque figure détectée par une webcam par le masque de [Dark Vador](https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/darth_vader.png)
+Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgreg/opencv-processing/releases)** et remplacer chaque figure détectée par une webcam par le masque de [Dark Vador](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/darth_vader.png)
 
 ## Adresses utiles
 *	**Processing** : https://www.processing.org
@@ -65,7 +65,7 @@ Modifier l’exemple *LiveCam* fourni par **[OpenCV](https://github.com/atduskgr
 *	**Référence Processing.org** : https://processing.org/reference
 *	**Learning Processing** : http://www.learningprocessing.com
 *	**Hello Processing** : https://hello.processing.org
-*	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/1A/Cours/C_processing.org_2.4.pdf
+*	**Support de cours** :	 https://github.com/truillet/upssitech/blob/master/SRI/3A/Cours/C_processing.org_2.4.pdf
 *	**Librairies** : https://processing.org/reference/libraries/
 
 --> **[Aller à la suite](lab2.md)** <--
