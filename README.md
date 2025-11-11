@@ -1,4 +1,4 @@
-# <img src="https://github.com/truillet/upssitech/blob/master/SRI/1A/Code/Processing_2021_logo.png" width=64> Processing
+# <img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Processing_2021_logo.png" width=64> Processing
 
 Je stocke ici des exemples et quelques fiches "non documentées" (ou peu) concernant l'usage du logiciel [Processing.org](https://www.processing.org)
 
