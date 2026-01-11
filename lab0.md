@@ -6,11 +6,11 @@ Il permet entre autres de manipuler des images (fixes ou animées) et interagir 
 
 Processing peut aussi être étendu à l’aide de librairies (fichiers JAR – **J**ava **AR**chive) ou grâce à des projets "dérivés" comme [Arduino](https://www.arduino.cc) (projet directement issu de Processing) , [Wiring](http://wiring.org.co) pour la gestion de capteurs physiques.
 
-Il existe actuellement de multiples versions de Processing dont [p5.js](https://p5js.org), [processing JS] (http://processingjs.org) écrits en javascript (reprenant la syntaxe de Processing), [Processing Python](https://py.processing.org), Processing R, etc.
+Il existe actuellement de multiples versions de Processing dont [p5.js](https://p5js.org), [processing JS] (http://processingjs.org) écrits en javascript (reprenant la syntaxe de Processing), [py5](https://py5coding.org) en python, Processing R, etc.
 
-Processing dans sa version originale s’appuie sur le langage Java, ce qui lui permet de fonctionner sur les systèmes d’exploitation Windows, MacOS X, Linux (et donc aussi sur Raspbian pour Raspberry Pi) et Android avec le mode idoine proposé à partir de Processing 3).	
+Processing dans *sa version originale* s’appuie sur le langage Java, ce qui lui permet de fonctionner sur les systèmes d’exploitation Windows, MacOS X, Linux (et donc aussi sur Raspbian pour Raspberry Pi) et Android avec le mode idoine proposé à partir de Processing 3).	
 
-Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processing.org](https://processing.org) a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide 
+Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processing.org](https://processing.org) a de nombreux atouts dont notamment sa simplicité d’usage qui en fait un langage presque idéal pour le prototypage rapide. 
 
 ## Installer Processing
 **Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.4.10 est installé dans le répertoire ```C:/langages```
@@ -27,7 +27,7 @@ Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 **Nota4** : Une extenstion Procssing pour [VSCode](https://code.visualstudio.com/) existe : [extension VSCode](https://marketplace.visualstudio.com/items?itemName=processing-foundation.processing-vscode-extension)
 
 ## Mon Premier sketch
-Il est possible d’utiliser Processing.org de différentes manières dont notamment en mode « script » (suites d’actions exécutées qu’une seule fois), et en mode *continu* (avec une boucle infinie – fonction **draw**).
+Il est possible d’utiliser Processing.org de différentes manières dont notamment en *mode script* (suites d’actions exécutées qu’une seule fois), et en mode *continu* (avec une boucle infinie – fonction **draw**).
 
 Le mode *continu* demande d’implémenter au moins deux fonctions : **setup()** qui initialise les variables (depuis [Processing.org](https://processing.org), on peut en plus utiliser la fonction **settings()**) et **draw()**, boucle d’affichage de données (*mainLoop*).
 Cette boucle permet d’afficher des animations graphiques complexes, réagir à des événements asynchrones provenant d’actions de l’utilisateur ou d’événements systèmes.
@@ -71,7 +71,7 @@ void draw(){ // boucle infinie de dessin
 }
   
 ```
-(vous trouverez le fichier source --> [ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/primitives_graphiques.zip) <--	 ).
+(vous trouverez le fichier source --> [ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/primitives_graphiques.zip) <--).
 
 Les possibilités du langage [Processing.org](https://processing.org) sont quasi-infinies notamment avec la possibilité d’utiliser la programmation orientée-objet, d’ajouter des librairies externes et d’en écrire soi-même ! 
 Enfin, l’IDE Processing propose plusieurs modes : Java (par défaut) mais aussi Android (ADB doit être installé), [p5.js](https://p5js.org), Python, R et REPL (**R**ead **E**val **P**rint **L**oop soit sous forme de *shell*).
