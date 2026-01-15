@@ -4,7 +4,7 @@
 ### Manipuler des images
 *	Charger un fichier png avec un bit de transparence et créer une composition graphique en utilisant l'image et en créant une bulle de style BD.
 
-<img src="https://github.com/truillet/processing/blob/master/images/tintin.jpg" width=150>
+<img src="https://github.com/truillet/processing/blob/master/images/tintin.jpg" width=250>
 
 **Tips** : 
 * Manipuler les [images](https://processing.org/reference/#image) sous Processing.org
@@ -13,7 +13,7 @@
 ### Utiliser la typographie
 *	Afficher du texte avec votre police de caractères préférée dans la bulle.
 
-<img src="https://github.com/truillet/processing/blob/master/images/tintin_bonjour.jpg" width=150>
+<img src="https://github.com/truillet/processing/blob/master/images/tintin_bonjour.jpg" width=250>
 
 **Tips** : [Gestion de la typographie sous Processing.org](https://processing.org/reference/#typography) 
 
