@@ -23,7 +23,7 @@ void draw() {
 }
 ```
 
-A partir de **[l’exemple fourni ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Machine_Etats.zip)**, écrire un programme qui démarre la webcam / arrête la webcam quand l’utilisateur tape sur la barre espace. (Par défaut, une image de renardeau -(tout *mignon*- sera affichée à la place du flux vidéo).
+A partir de **[l’exemple fourni ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Machine_Etats.zip)**, écrire un programme qui démarre la webcam / arrête la webcam quand l’utilisateur tape sur la barre espace. (Par défaut, une image de renardeau -tout *mignon*- sera affichée à la place du flux vidéo).
 
 ### programmation orientée-objet
 Télécharger le projet *[Gestion_Objets](https://github.com/truillet/processing/blob/master/exemples/avance/Gestion_Objets.zip)* et modifier le code de telle manière que chaque objet change de couleur quand on clique dessus et revienne à sa couleur initiale quand on le relâche (penser à utiliser les événements *MousePressed()* et *MouseReleased()*).
@@ -76,7 +76,6 @@ Modifier le code de telle manière que quand le pattern fiduciaire est détecté
 **Fiducial à télécharger** : https://github.com/truillet/upssitech/blob/master/SRI/3A/TP/fiducial_BoofCV.pdf (voir la documentation ici : http://boofcv.org/index.php?title=Tutorial_Fiducials)
 
 **Nota** : Vous pouvez aussi essayer les autres exemples (TrackingObject ou RemovePerspective par exemple 😉) intéressants pour d’autres sujets à traiter (comme le suivi d’objet en temps-réel ou le changement de perspective d’un objet).
-
 
 ### NyARToolkit
 * **[NyARToolkit](https://nyatla.jp/nyartoolkit)** est une version modifiée de la célèbre librairie ARToolkit développée par l’université de Washington il y a une vingtaine d’années (http://www.hitl.washington.edu/artoolkit).
