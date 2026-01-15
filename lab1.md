@@ -1,36 +1,26 @@
 # Lab1 - Initiation à <img src="https://github.com/truillet/upssitech/blob/master/SRI/3A/Code/Processing_2021_logo.png" width=64> Processing.org
 ## Formes et images
-### Manipuler des formes
-*	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
-<p align="center">
-<img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" align="center" width=400>
-</p>
-
-*	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)** (père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**
-
-**Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
-
-**Solution** : [Paintings](./exemples/base/Paintings.zip)
 
 ### Manipuler des images
-*	Afficher deux images ayant une teinte différente.
-*	Charger un fichier png avec un bit de transparence et créer une composition graphique en superposant les couches.
-*	Faire défiler de droite à gauche votre composition graphique.
+*	Charger un fichier png avec un bit de transparence et créer une composition graphique en utilisant l'image et en créant une bulle de style BD.
+
+<img src="https://github.com/truillet/processing/blob/master/images/tintin.jpg" width=150>
 
 **Tips** : 
 * Manipuler les [images](https://processing.org/reference/#image) sous Processing.org
 * https://remove.bg : supprimer le fond d'une photo PNG
    
 ### Utiliser la typographie
-*	Afficher votre citation favorite avec votre police de caractères préférée.
-*	Utiliser deux polices de caractères différentes pour simuler un dialogue fictif entre 2 utilisateurs (phrases justifiées à gauche pour l’un et à droite pour l’autre)
+*	Afficher du texte avec votre police de caractères préférée dans la bulle.
+
+<img src="https://github.com/truillet/processing/blob/master/images/tintin_bonjour.jpg" width=150>
 
 **Tips** : [Gestion de la typographie sous Processing.org](https://processing.org/reference/#typography) 
 
 ## Un peu d'interaction ...
 ### Utiliser les entrées classiques clavier/souris
-*	Utiliser les flèches du clavier (droite, gauche, haut et bas) pour modifier la position d’un triangle affiché dans la fenêtre
-*	Dessiner un personnage qui réagit suivant les actions de la souris.
+* Faire en sorte que le texte puisse changer à la pression et au relachement de la souris dans la fenêtre.
+* Utiliser les flèches du clavier (droite, gauche, haut et bas) pour modifier la position de la composition affichée dans la fenêtre
 
 **Tips** : **[Clavier](https://processing.org/reference/key.html)**  et **[Souris](https://processing.org/reference/mousePressed_.html)**
 
