@@ -29,12 +29,25 @@ Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 ## Mon Premier sketch
 Il est possible d’utiliser Processing.org de différentes manières dont notamment en *mode script* (suites d’actions exécutées qu’une seule fois), et en mode *continu* (avec une boucle infinie – fonction **draw**).
 
+Par convention, les mots réservés du langage sont affichés en bleu, vert, orange et rose dans l’IDE. 
+
+### Manipuler des formes - Mode script
+*	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
+<p align="center">
+<img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" align="center" width=400>
+</p>
+
+*	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)** (père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**
+
+**Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
+
+**Solution** : [Paintings](./exemples/base/Paintings.zip)
+
+### Manipuler des formes - Mode continu
 Le mode *continu* demande d’implémenter au moins deux fonctions : **setup()** qui initialise les variables (depuis [Processing.org](https://processing.org), on peut en plus utiliser la fonction **settings()**) et **draw()**, boucle d’affichage de données (*mainLoop*).
 Cette boucle permet d’afficher des animations graphiques complexes, réagir à des événements asynchrones provenant d’actions de l’utilisateur ou d’événements systèmes.
 
-Par convention, les mots réservés du langage sont affichés en bleu, vert et orange dans l’IDE. 
-
-Pour ce premier sketch, recopiez le code ci-après et lancez le script
+Pour ce sketch, recopiez le code ci-après et lancez le script
 
 ```java
 /** 
@@ -51,7 +64,7 @@ void settings() {
 }
 
 void setup(){ // initialiser le sketch
-
+ /* rien à faire ici */
 }
   
 void draw(){ // boucle infinie de dessin
@@ -79,16 +92,6 @@ Enfin, l’IDE Processing propose plusieurs modes : Java (par défaut) mais auss
 Il suffit de choisir le mode (une installation peut être requise) que vous souhaitez sur le bouton à droite de l’IDE.
 Les premiers exercices ci-après vous donnerons un aperçu de ce qui peut être fait en quelques lignes de code.
 
-### Manipuler des formes
-*	Créer la composition graphique suivante en respectant l’ordre d’apparition des formes et leur taille.
-<p align="center">
-<img src="https://github.com/truillet/processing/blob/master/data/img/lab1_figure1.png" align="center" width=400>
-</p>
 
-*	Composer un tableau simplifié de type **[Piet Mondrian](https://www.wikiart.org/en/piet-mondrian)** (père du néo-plasticisme) ou **[Sophie Taeuber-Arp](https://www.wikiart.org/en/sophie-taeuber-arp)**
-
-**Tips** : [Primitives graphiques](https://processing.org/reference/#shape) sous Processing.org
-
-**Solution** : [Paintings](./exemples/base/Paintings.zip)
 
 --> **[Aller à la suite](lab1.md)** <--
