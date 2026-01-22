@@ -15,7 +15,7 @@ Malgré encore quelques petites lacunes (de plus en plus corrigées), [Processin
 ## Installer Processing
 **Nota1** : Nous supposerons dans la suite du document que l’IDE (**I**ntegrated **D**evelopment **E**nvironment) Processing 4.4.10 est installé dans le répertoire ```C:/langages```
 
-Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (version stable 4.4.10 du 14 octobre 2025 en 64 bits).
+Si ce n’était pas le cas, la première chose à faire est de se rendre à l’adresse https://www.processing.org/download/?processing et télécharger une des versions proposées (**version stable 4.5.1 du 19 janvier 2026 en 64 bits**).
 Une fois téléchargée, décompressez l’archive dans le répertoire de votre choix et lancez l’exécutable *processing*.
 Déterminer ensuite le répertoire où seront sauvés vos programmes (sketches)
 (cf. *File | Preferences*), choisissez l’emplacement dans le champ *sketchbook location* et appuyez sur *ok*.
